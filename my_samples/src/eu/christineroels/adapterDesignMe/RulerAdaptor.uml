@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.adapterDesignMe.RulerAdaptor</OriginalElement>
+  <nodes>
+    <node x="216.0" y="208.0">com.example.adapterDesignMe.RulerAdaptor</node>
+    <node x="0.0" y="241.5">com.example.adapterDesignMe.RulerInch</node>
+    <node x="415.875" y="0.0">com.example.adapterDesignMe.Measurable</node>
+    <node x="494.0" y="241.5">com.example.adapterDesignMe.RulerCentimeterAdaptee</node>
+    <node x="0.0" y="442.0">com.example.adapterDesignMe.rulerTest</node>
+    <node x="375.875" y="104.0">com.example.adapterDesignMe.CentimeterMeasurable</node>
+    <node x="133.75" y="104.0">com.example.adapterDesignMe.InchMeasurable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.adapterDesignMe.RulerCentimeterAdaptee" target="com.example.adapterDesignMe.Measurable">
+      <point x="56.25" y="-61.0" />
+      <point x="662.75" y="183.0" />
+      <point x="653.25" y="183.0" />
+      <point x="653.25" y="79.0" />
+      <point x="522.5416666666666" y="79.0" />
+      <point x="42.66666666666663" y="27.0" />
+    </edge>
+    <edge source="com.example.adapterDesignMe.RulerAdaptor" target="com.example.adapterDesignMe.CentimeterMeasurable">
+      <point x="64.5" y="-94.5" />
+      <point x="409.5" y="183.0" />
+      <point x="427.875" y="183.0" />
+      <point x="-52.0" y="27.0" />
+    </edge>
+    <edge source="com.example.adapterDesignMe.RulerInch" target="com.example.adapterDesignMe.InchMeasurable">
+      <point x="49.0" y="-61.0" />
+      <point x="147.0" y="183.0" />
+      <point x="173.75" y="183.0" />
+      <point x="-40.0" y="27.0" />
+    </edge>
+    <edge source="com.example.adapterDesignMe.RulerAdaptor" target="com.example.adapterDesignMe.InchMeasurable">
+      <point x="-64.5" y="-94.5" />
+      <point x="280.5" y="183.0" />
+      <point x="253.75" y="183.0" />
+      <point x="40.0" y="27.0" />
+    </edge>
+    <edge source="com.example.adapterDesignMe.RulerInch" target="com.example.adapterDesignMe.Measurable">
+      <point x="-49.0" y="-61.0" />
+      <point x="49.0" y="183.0" />
+      <point x="88.25000000000006" y="183.0" />
+      <point x="88.25000000000006" y="79.0" />
+      <point x="437.2083333333333" y="79.0" />
+      <point x="-42.666666666666686" y="27.0" />
+    </edge>
+    <edge source="com.example.adapterDesignMe.CentimeterMeasurable" target="com.example.adapterDesignMe.Measurable">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.example.adapterDesignMe.RulerCentimeterAdaptee" target="com.example.adapterDesignMe.CentimeterMeasurable">
+      <point x="-56.25" y="-61.0" />
+      <point x="550.25" y="183.0" />
+      <point x="531.875" y="183.0" />
+      <point x="52.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="359.5" y="281.0" />
+  <SelectedNodes>
+    <node>com.example.adapterDesignMe.RulerAdaptor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

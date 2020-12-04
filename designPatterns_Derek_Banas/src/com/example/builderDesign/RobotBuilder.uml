@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.builderDesign.RobotBuilder</OriginalElement>
+  <nodes>
+    <node x="218.0" y="170.0">com.example.builderDesign.models.GenericRobot</node>
+    <node x="226.5" y="0.0">com.example.builderDesign.RobotPlan</node>
+    <node x="-328.0" y="20.0">com.example.builderDesign.RobotEngineerService</node>
+    <node x="-321.0" y="283.0">com.example.builderDesign.TestRobotBuilder</node>
+    <node x="0.0" y="193.0">com.example.builderDesign.models.VintageRobot</node>
+    <node x="0.0" y="0.0">com.example.builderDesign.RobotBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.builderDesign.models.GenericRobot" target="com.example.builderDesign.RobotPlan">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="com.example.builderDesign.models.VintageRobot" target="com.example.builderDesign.RobotBuilder">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="71.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="145.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

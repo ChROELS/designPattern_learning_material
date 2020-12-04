@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.PrototypeDesign.factories.CloneFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="104.0">com.example.PrototypeDesign.models.Sheep</node>
+    <node x="-1.0" y="10.0">com.example.PrototypeDesign.models.Animal</node>
+    <node x="203.0" y="0.0">com.example.PrototypeDesign.TestCloning</node>
+    <node x="209.0" y="-90.0">com.example.PrototypeDesign.factories.CloneFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.PrototypeDesign.models.Sheep" target="com.example.PrototypeDesign.models.Animal">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="72.5" y="90.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

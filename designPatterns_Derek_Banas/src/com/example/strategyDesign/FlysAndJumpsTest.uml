@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.strategyDesign.FlysAndJumpsTest</OriginalElement>
+  <nodes>
+    <node x="619.0" y="597.0">com.example.strategyDesign.behaviors.NoFlight</node>
+    <node x="138.0" y="597.0">com.example.strategyDesign.behaviors.JumpWide</node>
+    <node x="138.0" y="493.0">com.example.strategyDesign.behaviors.Jump</node>
+    <node x="0.0" y="359.5">com.example.strategyDesign.models.Eagle</node>
+    <node x="545.0" y="493.0">com.example.strategyDesign.behaviors.Fly</node>
+    <node x="81.25" y="0.0">com.example.strategyDesign.models.Animal</node>
+    <node x="276.0" y="597.0">com.example.strategyDesign.behaviors.Hops</node>
+    <node x="0.0" y="597.0">com.example.strategyDesign.behaviors.NoJump</node>
+    <node x="439.0" y="597.0">com.example.strategyDesign.behaviors.PredatorFlight</node>
+    <node x="161.0" y="348.0">com.example.strategyDesign.models.Horse</node>
+    <node x="362.0" y="0.0">com.example.strategyDesign.FlysAndJumpsTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.strategyDesign.models.Eagle" target="com.example.strategyDesign.models.Animal">
+      <point x="0.0" y="-38.5" />
+      <point x="70.5" y="323.0" />
+      <point x="118.0" y="323.0" />
+      <point x="-36.75" y="149.0" />
+    </edge>
+    <edge source="com.example.strategyDesign.behaviors.PredatorFlight" target="com.example.strategyDesign.behaviors.Fly">
+      <point x="0.0" y="-27.0" />
+      <point x="519.0" y="572.0" />
+      <point x="571.0" y="572.0" />
+      <point x="-26.0" y="27.0" />
+    </edge>
+    <edge source="com.example.strategyDesign.behaviors.NoJump" target="com.example.strategyDesign.behaviors.Jump">
+      <point x="0.0" y="-27.0" />
+      <point x="59.0" y="572.0" />
+      <point x="157.66666666666666" y="572.0" />
+      <point x="-39.33333333333334" y="27.0" />
+    </edge>
+    <edge source="com.example.strategyDesign.behaviors.JumpWide" target="com.example.strategyDesign.behaviors.Jump">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.example.strategyDesign.behaviors.NoFlight" target="com.example.strategyDesign.behaviors.Fly">
+      <point x="0.0" y="-27.0" />
+      <point x="675.0" y="572.0" />
+      <point x="623.0" y="572.0" />
+      <point x="26.0" y="27.0" />
+    </edge>
+    <edge source="com.example.strategyDesign.models.Horse" target="com.example.strategyDesign.models.Animal">
+      <point x="0.0" y="-50.0" />
+      <point x="239.0" y="323.0" />
+      <point x="191.5" y="323.0" />
+      <point x="36.75" y="149.0" />
+    </edge>
+    <edge source="com.example.strategyDesign.behaviors.Hops" target="com.example.strategyDesign.behaviors.Jump">
+      <point x="0.0" y="-27.0" />
+      <point x="335.0" y="572.0" />
+      <point x="236.33333333333334" y="572.0" />
+      <point x="39.33333333333334" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="306.5" y="257.0" />
+  <SelectedNodes>
+    <node>com.example.strategyDesign.FlysAndJumpsTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

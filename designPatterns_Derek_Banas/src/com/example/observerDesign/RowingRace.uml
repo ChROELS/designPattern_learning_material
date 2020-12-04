@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.observerDesign.RowingRace</OriginalElement>
+  <nodes>
+    <node x="0.0" y="148.0">com.example.observerDesign.observersClasses.RaceDispatcher</node>
+    <node x="0.0" y="470.0">com.example.observerDesign.runnables.GetTheResults</node>
+    <node x="253.0" y="0.0">com.example.observerDesign.obsInterfaces.Observer</node>
+    <node x="317.0" y="470.0">com.example.observerDesign.RowingRace</node>
+    <node x="253.0" y="104.0">com.example.observerDesign.observersClasses.RaceObserver</node>
+    <node x="0.0" y="0.0">com.example.observerDesign.obsInterfaces.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.observerDesign.observersClasses.RaceDispatcher" target="com.example.observerDesign.obsInterfaces.Subject">
+      <point x="0.0" y="-138.5" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.example.observerDesign.observersClasses.RaceObserver" target="com.example.observerDesign.obsInterfaces.Observer">
+      <point x="0.0" y="-116.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="72.5" y="393.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

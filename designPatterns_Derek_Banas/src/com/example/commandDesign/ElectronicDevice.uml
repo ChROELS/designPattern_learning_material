@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.commandDesign.receivers.ElectronicDevice</OriginalElement>
+  <nodes>
+    <node x="11.0" y="170.0">com.example.commandDesign.receivers.Television</node>
+    <node x="251.0" y="484.0">com.example.commandDesign.commands.TVRemoteSound</node>
+    <node x="230.0" y="651.0">com.example.commandDesign.invokers.TVRemote</node>
+    <node x="0.0" y="651.0">com.example.commandDesign.invokers.DeviceButton</node>
+    <node x="0.0" y="484.0">com.example.commandDesign.commands.TVRemotePower</node>
+    <node x="0.0" y="0.0">com.example.commandDesign.receivers.ElectronicDevice</node>
+    <node x="180.5" y="358.0">com.example.commandDesign.commands.Command</node>
+    <node x="471.0" y="651.0">com.example.commandDesign.PlayWithRemote</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.commandDesign.receivers.Television" target="com.example.commandDesign.receivers.ElectronicDevice">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="com.example.commandDesign.commands.TVRemotePower" target="com.example.commandDesign.commands.Command">
+      <point x="0.0" y="-61.0" />
+      <point x="115.5" y="459.0" />
+      <point x="211.0" y="459.0" />
+      <point x="-30.5" y="38.0" />
+    </edge>
+    <edge source="com.example.commandDesign.commands.TVRemoteSound" target="com.example.commandDesign.commands.Command">
+      <point x="0.0" y="-61.0" />
+      <point x="367.5" y="459.0" />
+      <point x="272.0" y="459.0" />
+      <point x="30.5" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="206.5" y="530.0" />
+  <SelectedNodes>
+    <node>com.example.commandDesign.receivers.ElectronicDevice</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

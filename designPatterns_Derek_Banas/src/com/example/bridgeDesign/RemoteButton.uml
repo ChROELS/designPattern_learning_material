@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.bridgeDesign.RemoteButton</OriginalElement>
+  <nodes>
+    <node x="359.0" y="773.0">com.example.bridgeDesign.remotes.VideoGameRemote</node>
+    <node x="0.0" y="773.0">com.example.bridgeDesign.remotes.MusicPlayerRemote</node>
+    <node x="72.0" y="-67.0">com.example.bridgeDesign.EntertainmentDeviceImplementor</node>
+    <node x="-233.0" y="246.0">com.example.bridgeDesign.devices.VideoGamePlayer</node>
+    <node x="255.0" y="303.0">com.example.bridgeDesign.devices.MusicPlayer</node>
+    <node x="743.0" y="491.0">com.example.bridgeDesign.TestDeviceRemote</node>
+    <node x="192.5" y="491.0">com.example.bridgeDesign.RemoteButton</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.bridgeDesign.devices.MusicPlayer" target="com.example.bridgeDesign.EntertainmentDeviceImplementor">
+      <point x="0.0" y="-71.5" />
+      <point x="372.5" y="278.0" />
+      <point x="317.0" y="278.0" />
+      <point x="72.0" y="126.5" />
+    </edge>
+    <edge source="com.example.bridgeDesign.remotes.VideoGameRemote" target="com.example.bridgeDesign.RemoteButton">
+      <point x="0.0" y="-50.0" />
+      <point x="528.5" y="748.0" />
+      <point x="427.25" y="748.0" />
+      <point x="78.25" y="116.0" />
+    </edge>
+    <edge source="com.example.bridgeDesign.devices.VideoGamePlayer" target="com.example.bridgeDesign.EntertainmentDeviceImplementor">
+      <point x="0.0" y="-71.5" />
+      <point x="117.5" y="278.0" />
+      <point x="35.0" y="197.0" />
+      <point x="-72.0" y="126.5" />
+    </edge>
+    <edge source="com.example.bridgeDesign.remotes.MusicPlayerRemote" target="com.example.bridgeDesign.RemoteButton">
+      <point x="0.0" y="-50.0" />
+      <point x="169.5" y="748.0" />
+      <point x="270.75" y="748.0" />
+      <point x="-78.25" y="116.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="303.5" y="390.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
